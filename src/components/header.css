@@ -1,0 +1,27 @@
+.page-header {
+    position: sticky; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2020;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 114px;
+    padding: 0 10px;
+}
+
+.fixed-header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.--with-shadow {
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .07);
+}
+
+.page-header__top {
+    margin-bottom: 17px;
+}
