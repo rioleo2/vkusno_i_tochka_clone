@@ -42,5 +42,14 @@
     right: -26px;
 }
 
+@media (max-width: 768px) {
+    .image-slider-button__left {
+        left: -10px;
+    }
+    .image-slider-button__right {
+        right: -10px;
+    }
+}
+
 
 
